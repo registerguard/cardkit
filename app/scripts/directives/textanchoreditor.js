@@ -13,9 +13,9 @@ angular.module('cardkitApp')
             '<label>Text Anchor</label>' +
             '<select ng-model="element.textAnchor" class="form-control">' +
               '<option value="">-- Select a Text Anchor --</option>' +
-              '<option value="start">Start</option>' +
-              '<option value="middle">Middle</option>' +
-              '<option value="end">End</option>' +
+              '<option value="start">Left Justified</option>' +
+              '<option value="middle">Center Justified</option>' +
+              '<option value="end">Right Justified</option>' +
             '</select>' +
           '</div>',
       restrict: 'E',

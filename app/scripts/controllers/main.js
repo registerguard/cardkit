@@ -123,7 +123,7 @@ angular.module('cardkitApp')
           headline: {
             name: 'Headline',
             type: 'text',
-            text: 'CardKit is a powerful, configurable\nimage editor, that can be run right\ninside your web browser.',
+            text: '“CardKit is a powerful, configurable\nimage editor, that can be run right\ninside your web browser.”',
             fill: function() {
               return $scope.theme.quote;
             },
@@ -226,7 +226,7 @@ angular.module('cardkitApp')
     });
 
     $scope.resetSvg = function() {
-      $scope.config.svg = $scope.defaultConfig.svg
+      $scope.config.svg = $scope.defaultConfig.svg;
       createConfigCopy();
     };
 
